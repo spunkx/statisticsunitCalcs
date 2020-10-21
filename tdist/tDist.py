@@ -10,4 +10,4 @@ sampSize = float(input("enter sample size: "))
 floor = xBar - (kVal*(standDev/math.sqrt(sampSize)))
 ceil = xBar + (kVal*(standDev/math.sqrt(sampSize)))
 
-print(floor, "<", "p", "<", ceil)
+print(floor, "< p <", ceil)
